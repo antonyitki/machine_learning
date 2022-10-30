@@ -1,0 +1,980 @@
+Coefficients:
+ [ 4.38341701e+01  2.84641624e-01  3.83885519e-02  2.70912896e+01
+  3.23142529e+01  2.67753982e+01 -7.23171531e+01 -2.87321472e+01
+ -1.45248180e-01  1.07877367e-01  3.53188649e-01 -5.30079393e-01
+  9.39384191e-02]
+                            OLS Regression Results
+==============================================================================
+Dep. Variable:                      y   R-squared:                       0.903
+Model:                            OLS   Adj. R-squared:                  0.892
+Method:                 Least Squares   F-statistic:                     86.47
+Date:                Thu, 13 Oct 2022   Prob (F-statistic):           9.38e-55
+Time:                        14:23:57   Log-Likelihood:                -317.51
+No. Observations:                 135   AIC:                             663.0
+Df Residuals:                     121   BIC:                             703.7
+Df Model:                          13
+Covariance Type:            nonrobust
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const         34.9223     51.223      0.682      0.497     -66.488     136.333
+x1            43.8342      4.239     10.340      0.000      35.441      52.227
+x2             0.2846      0.021     13.675      0.000       0.243       0.326
+x3             0.0384      0.026      1.458      0.148      -0.014       0.091
+x4            27.0913     47.567      0.570      0.570     -67.080     121.263
+x5            32.3143     71.650      0.451      0.653    -109.537     174.165
+x6            26.7754     30.822      0.869      0.387     -34.245      87.795
+x7           -72.3172     60.813     -1.189      0.237    -192.712      48.078
+x8           -28.7321     41.042     -0.700      0.485    -109.986      52.522
+x9            -0.1452      0.149     -0.975      0.332      -0.440       0.150
+x10            0.1079      0.210      0.514      0.608      -0.308       0.523
+x11            0.3532      0.267      1.322      0.189      -0.176       0.882
+x11.1         -0.5301      0.313     -1.695      0.093      -1.149       0.089
+x12            0.0939      0.156      0.601      0.549      -0.215       0.403
+==============================================================================
+Omnibus:                        8.214   Durbin-Watson:                   1.463
+Prob(Omnibus):                  0.016   Jarque-Bera (JB):                3.617
+Skew:                           0.076   Prob(JB):                        0.164
+Kurtosis:                       2.213   Cond. No.                     5.37e+04
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 5.37e+04. This might indicate that there are
+strong multicollinearity or other numerical problems.
+########################################################################
+
+Some other SL regressions:
+
+POLINOMIAL
+How well does my data fit in a polynomial regression?
+0.07048104681713152
+How well does my data fit in a polynomial with grade 6 regression?
+0.08133071463263153
+########################################################################
+
+Time for Dr. Gu in lab3 regressions:
+[[1 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ ...
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]]
+C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\sklearn\metrics\_classification.py:1334: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\sklearn\metrics\_classification.py:1334: UndefinedMetricWarning: Recall and F-score are ill-defined and being set to 0.0 in labels with no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\sklearn\metrics\_classification.py:1334: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\sklearn\metrics\_classification.py:1334: UndefinedMetricWarning: Recall and F-score are ill-defined and being set to 0.0 in labels with no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\sklearn\metrics\_classification.py:1334: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\sklearn\metrics\_classification.py:1334: UndefinedMetricWarning: Recall and F-score are ill-defined and being set to 0.0 in labels with no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00         1
+           1       0.00      0.00      0.00         1
+           2       0.00      0.00      0.00         1
+           3       0.00      0.00      0.00         1
+           4       0.00      0.00      0.00         1
+           5       0.00      0.00      0.00         1
+           6       0.00      0.00      0.00         1
+           7       0.00      0.00      0.00         1
+           8       0.00      0.00      0.00         2
+           9       0.00      0.00      0.00         1
+          10       0.00      0.00      0.00         1
+          11       0.00      0.00      0.00         1
+          12       0.00      0.00      0.00         1
+          13       0.00      0.00      0.00         1
+          14       0.00      0.00      0.00         1
+          15       0.00      0.00      0.00         1
+          16       0.00      0.00      0.00         1
+          17       0.00      0.00      0.00         1
+          18       0.00      0.00      0.00         1
+          19       0.00      0.00      0.00         1
+          20       0.00      0.00      0.00         1
+          21       0.00      0.00      0.00         1
+          22       0.00      0.00      0.00         1
+          23       0.00      0.00      0.00         1
+          24       0.00      0.00      0.00         1
+          25       0.00      0.00      0.00         1
+          26       0.00      0.00      0.00         1
+          27       0.00      0.00      0.00         2
+          28       0.00      0.00      0.00         1
+          29       0.00      0.00      0.00         1
+          30       0.00      0.00      0.00         1
+          31       0.00      0.00      0.00         1
+          32       0.00      0.00      0.00         1
+          33       0.00      0.00      0.00         1
+          34       0.00      0.00      0.00         1
+          35       0.00      0.00      0.00         1
+          36       0.00      0.00      0.00         1
+          37       0.00      0.00      0.00         1
+          38       0.00      0.00      0.00         1
+          41       0.00      0.00      0.00         0
+          45       0.00      0.00      0.00         0
+          49       0.00      0.00      0.00         0
+          51       0.00      0.00      0.00         0
+          54       0.00      0.00      0.00         0
+          62       0.00      0.00      0.00         0
+          64       0.00      0.00      0.00         0
+          66       0.00      0.00      0.00         0
+          71       0.00      0.00      0.00         0
+          73       0.00      0.00      0.00         0
+          75       0.00      0.00      0.00         0
+          77       0.00      0.00      0.00         0
+          78       0.00      0.00      0.00         0
+          79       0.00      0.00      0.00         0
+          81       0.00      0.00      0.00         0
+          83       0.00      0.00      0.00         0
+          85       0.00      0.00      0.00         0
+          88       0.00      0.00      0.00         0
+          89       0.00      0.00      0.00         0
+          90       0.00      0.00      0.00         0
+
+    accuracy                           0.02        41
+   macro avg       0.02      0.02      0.02        41
+weighted avg       0.02      0.02      0.02        41
+
+C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\sklearn\base.py:450: UserWarning: X does not have valid feature names, but RandomForestClassifier was fitted with feature names
+  warnings.warn(
+[51]
+C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\sklearn\base.py:450: UserWarning: X does not have valid feature names, but DecisionTreeClassifier was fitted with feature names
+  warnings.warn(
+[33]
+C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\sklearn\base.py:450: UserWarning: X does not have valid feature names, but GaussianNB was fitted with feature names
+  warnings.warn(
+[2]
+This is the END. Some useful theory are in these websites:
+
+PS C:\Users\Admin\OneDrive\Desktop\MLcourseworks> & C:/Users/Admin/AppData/Local/Programs/Python/Python39/python.exe c:/Users/Admin/OneDrive/Desktop/MLcourseworks/Tony_YIT19488399.py
+Locate the file in the right directory.
+Enter filename with extension, plesae:
+cw1data.csd
+WRONG file name.
+Enter filename with extension, plesae:
+cw1data.csv
+The file name entered matches! It is cw1data.csv.
+
+         y    x1     x2  x3     x4     x5     x6     x7     x8     x9    x10    x11  x11.1    x12
+0    49.83  1.68   82.8  24  6.554  6.538  6.438  6.390  6.318  29.44  39.83  59.10  54.11  40.72
+1    50.12  1.71   86.5  53  6.593  6.578  6.465  6.420  6.356  19.11  40.19  57.34  53.60  39.24
+2    49.02  1.65   91.0  45  6.488  6.466  6.360  6.313  6.251  31.00  41.56  56.69  50.99  38.08
+3    61.70  1.69  100.7  42  6.361  6.334  6.209  6.160  6.087  33.39  44.33  52.26  45.33  29.23
+4    40.83  1.72   62.3  37  6.667  6.644  6.539  6.491  6.417  34.33  48.35  69.03  62.02  44.97
+..     ...   ...    ...  ..    ...    ...    ...    ...    ...    ...    ...    ...    ...    ...
+130  45.67  1.53   80.0  38  6.467  6.430  6.313  6.264  6.181  29.21  44.47  60.90  53.96  37.21
+131  59.02  1.65  121.0  28  6.281  6.253  6.127  6.077  6.001  30.80  39.97  50.59  43.96  28.25
+132  57.67  1.62   92.5  22  6.285  6.261  6.145  6.091  6.016  27.17  36.62  50.65  44.56  30.10
+133  59.71  1.68   90.2  19  6.336  6.309  6.179  6.120  6.042  28.58  41.31  57.54  50.04  34.58
+134  55.04  1.64   94.8  32  6.435  6.411  6.297  6.242  6.164  30.48  42.55  59.91  53.73  38.25
+
+[135 rows x 14 columns]
+
+Number of unique values in each column:
+ y        132
+x1        35
+x2       124
+x3        46
+x4       115
+x5       125
+x6       114
+x7       119
+x8       120
+x9       131
+x10      134
+x11      129
+x11.1    133
+x12      128
+dtype: int64
+
+First 5 rowas and all columns
+        y    x1     x2  x3     x4     x5     x6     x7     x8     x9    x10    x11  x11.1    x12
+0  49.83  1.68   82.8  24  6.554  6.538  6.438  6.390  6.318  29.44  39.83  59.10  54.11  40.72
+1  50.12  1.71   86.5  53  6.593  6.578  6.465  6.420  6.356  19.11  40.19  57.34  53.60  39.24
+2  49.02  1.65   91.0  45  6.488  6.466  6.360  6.313  6.251  31.00  41.56  56.69  50.99  38.08
+3  61.70  1.69  100.7  42  6.361  6.334  6.209  6.160  6.087  33.39  44.33  52.26  45.33  29.23
+4  40.83  1.72   62.3  37  6.667  6.644  6.539  6.491  6.417  34.33  48.35  69.03  62.02  44.97
+
+The total number of elements are: 1890, without headers of first row.
+
+If 'True' everywhere, this means not empty values in the file
+         y    x1    x2    x3    x4    x5    x6    x7    x8    x9   x10   x11  x11.1   x12
+0    True  True  True  True  True  True  True  True  True  True  True  True   True  True
+1    True  True  True  True  True  True  True  True  True  True  True  True   True  True
+2    True  True  True  True  True  True  True  True  True  True  True  True   True  True
+3    True  True  True  True  True  True  True  True  True  True  True  True   True  True
+4    True  True  True  True  True  True  True  True  True  True  True  True   True  True
+..    ...   ...   ...   ...   ...   ...   ...   ...   ...   ...   ...   ...    ...   ...
+130  True  True  True  True  True  True  True  True  True  True  True  True   True  True
+131  True  True  True  True  True  True  True  True  True  True  True  True   True  True
+132  True  True  True  True  True  True  True  True  True  True  True  True   True  True
+133  True  True  True  True  True  True  True  True  True  True  True  True   True  True
+134  True  True  True  True  True  True  True  True  True  True  True  True   True  True
+
+[135 rows x 14 columns]
+
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 135 entries, 0 to 134
+Data columns (total 14 columns):
+ #   Column  Non-Null Count  Dtype
+---  ------  --------------  -----
+ 0   y       135 non-null    float64
+ 1   x1      135 non-null    float64
+ 2   x2      135 non-null    float64
+ 3   x3      135 non-null    int64
+ 4   x4      135 non-null    float64
+ 5   x5      135 non-null    float64
+ 6   x6      135 non-null    float64
+ 7   x7      135 non-null    float64
+ 8   x8      135 non-null    float64
+ 9   x9      135 non-null    float64
+ 10  x10     135 non-null    float64
+ 11  x11     135 non-null    float64
+ 12  x11.1   135 non-null    float64
+ 13  x12     135 non-null    float64
+dtypes: float64(13), int64(1)
+memory usage: 14.9 KB
+None
+
+Some useful information about dataset
+                y          x1          x2          x3          x4          x5          x6          x7          x8          x9         x10         x11       x11.1         x12
+count  135.000000  135.000000  135.000000  135.000000  135.000000  135.000000  135.000000  135.000000  135.000000  135.000000  135.000000  135.000000  135.000000  135.000000
+mean    55.147333    1.621556   97.740000   44.859259    6.308985    6.284193    6.176126    6.125274    6.051637   25.716370   35.791407   49.388667   44.078370   30.672593
+std      8.184919    0.064875   17.580812   13.231669    0.140394    0.140646    0.141849    0.141934    0.142768    5.216336    6.893616    8.379095    7.214192    5.766506
+min     36.590000    1.450000   56.200000   18.000000    5.944000    5.922000    5.831000    5.790000    5.725000    9.930000   18.840000   29.810000   26.140000   17.100000
+25%     49.640000    1.580000   86.500000   36.500000    6.215500    6.190000    6.087000    6.038000    5.963000   22.100000   30.805000   43.950000   38.955000   26.420000
+50%     55.150000    1.630000   96.100000   46.000000    6.302000    6.276000    6.166000    6.118000    6.042000   25.810000   35.850000   50.170000   44.560000   30.600000
+75%     61.845000    1.660000  111.350000   55.000000    6.405500    6.382000    6.260500    6.211500    6.141000   29.430000   40.865000   54.920000   48.910000   34.270000
+max     74.950000    1.800000  136.800000   69.000000    6.684000    6.654000    6.539000    6.491000    6.417000   41.920000   59.690000   74.410000   62.020000   44.970000
+<statsmodels.regression.linear_model.RegressionResultsWrapper object at 0x0000014F3986FAF0>
+                            OLS Regression Results
+==============================================================================
+Dep. Variable:                      y   R-squared:                       0.401
+Model:                            OLS   Adj. R-squared:                  0.396
+Method:                 Least Squares   F-statistic:                     88.95
+Date:                Thu, 13 Oct 2022   Prob (F-statistic):           1.75e-16
+Time:                        14:30:16   Log-Likelihood:                -440.30
+No. Observations:                 135   AIC:                             884.6
+Df Residuals:                     133   BIC:                             890.4
+Df Model:                           1
+Covariance Type:            nonrobust
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+Intercept    278.7589     23.716     11.754      0.000     231.849     325.669
+x7           -36.5064      3.871     -9.431      0.000     -44.163     -28.850
+==============================================================================
+Omnibus:                        0.276   Durbin-Watson:                   1.966
+Prob(Omnibus):                  0.871   Jarque-Bera (JB):                0.441
+Skew:                           0.055   Prob(JB):                        0.802
+Kurtosis:                       2.743   Cond. No.                         273.
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+eval_env: 1
+Press ENTER to exit (image need to be closed manually)
+eval_env: 1
+eval_env: 1
+eval_env: 1
+eval_env: 1
+eval_env: 1
+eval_env: 1
+eval_env: 1
+eval_env: 1
+eval_env: 1
+eval_env: 1
+eval_env: 1
+eval_env: 1
+eval_env: 1
+<statsmodels.regression.linear_model.RegressionResultsWrapper object at 0x0000014F41631040>
+
+
+                            OLS Regression Results
+==============================================================================
+Dep. Variable:                      y   R-squared:                       0.901
+Model:                            OLS   Adj. R-squared:                  0.891
+Method:                 Least Squares   F-statistic:                     92.03
+Date:                Thu, 13 Oct 2022   Prob (F-statistic):           3.90e-55
+Time:                        14:30:20   Log-Likelihood:                -319.09
+No. Observations:                 135   AIC:                             664.2
+Df Residuals:                     122   BIC:                             702.0
+Df Model:                          12
+Covariance Type:            nonrobust
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+Intercept     60.8344     49.264      1.235      0.219     -36.688     158.357
+x1            44.0914      4.269     10.328      0.000      35.640      52.543
+x2             0.2885      0.021     13.837      0.000       0.247       0.330
+x3             0.0380      0.027      1.431      0.155      -0.015       0.091
+x4            30.3088     47.893      0.633      0.528     -64.499     125.117
+x5             5.5731     70.427      0.079      0.937    -133.845     144.991
+x6            16.6749     30.472      0.547      0.585     -43.647      76.997
+x7           -47.6432     59.497     -0.801      0.425    -165.424      70.137
+x8           -24.3201     41.273     -0.589      0.557    -106.024      57.384
+x9            -0.1501      0.150     -1.000      0.319      -0.447       0.147
+x10            0.1608      0.209      0.769      0.444      -0.253       0.575
+x11            0.0746      0.212      0.351      0.726      -0.346       0.495
+x12           -0.0940      0.111     -0.847      0.399      -0.314       0.126
+==============================================================================
+Omnibus:                        6.612   Durbin-Watson:                   1.419
+Prob(Omnibus):                  0.037   Jarque-Bera (JB):                3.366
+Skew:                           0.126   Prob(JB):                        0.186
+Kurtosis:                       2.269   Cond. No.                     4.90e+04
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 4.9e+04. This might indicate that there are
+strong multicollinearity or other numerical problems.
+Press ENTER to exit (image need to be closed manually)
+
+
+
+
+
+Now is time to do some regression!!
+
+0      49.83
+1      50.12
+2      49.02
+3      61.70
+4      40.83
+       ...
+130    45.67
+131    59.02
+132    57.67
+133    59.71
+134    55.04
+Name: y, Length: 135, dtype: float64
+
+
+       x1     x2  x3     x4     x5     x6     x7     x8     x9    x10    x11  x11.1    x12
+0    1.68   82.8  24  6.554  6.538  6.438  6.390  6.318  29.44  39.83  59.10  54.11  40.72
+1    1.71   86.5  53  6.593  6.578  6.465  6.420  6.356  19.11  40.19  57.34  53.60  39.24
+2    1.65   91.0  45  6.488  6.466  6.360  6.313  6.251  31.00  41.56  56.69  50.99  38.08
+3    1.69  100.7  42  6.361  6.334  6.209  6.160  6.087  33.39  44.33  52.26  45.33  29.23
+4    1.72   62.3  37  6.667  6.644  6.539  6.491  6.417  34.33  48.35  69.03  62.02  44.97
+..    ...    ...  ..    ...    ...    ...    ...    ...    ...    ...    ...    ...    ...
+130  1.53   80.0  38  6.467  6.430  6.313  6.264  6.181  29.21  44.47  60.90  53.96  37.21
+131  1.65  121.0  28  6.281  6.253  6.127  6.077  6.001  30.80  39.97  50.59  43.96  28.25
+132  1.62   92.5  22  6.285  6.261  6.145  6.091  6.016  27.17  36.62  50.65  44.56  30.10
+133  1.68   90.2  19  6.336  6.309  6.179  6.120  6.042  28.58  41.31  57.54  50.04  34.58
+134  1.64   94.8  32  6.435  6.411  6.297  6.242  6.164  30.48  42.55  59.91  53.73  38.25
+
+[135 rows x 13 columns]
+
+
+This is training data INPUT
+        x1     x2  x3     x4     x5     x6     x7     x8     x9    x10    x11  x11.1    x12
+72   1.45   88.3  24  6.262  6.235  6.107  6.046  5.963  28.39  39.28  53.52  47.15  32.63
+24   1.58   85.3  48  6.343  6.311  6.190  6.140  6.061  25.81  38.50  53.88  45.98  29.99
+46   1.60   97.4  57  6.534  6.498  6.403  6.356  6.291  28.85  42.91  55.98  51.29  39.62
+116  1.57   90.1  26  6.491  6.465  6.340  6.281  6.197  34.54  48.29  67.61  59.63  40.39
+109  1.68  118.8  59  6.299  6.270  6.169  6.124  6.059  29.47  36.97  45.17  39.03  26.94
+..    ...    ...  ..    ...    ...    ...    ...    ...    ...    ...    ...    ...    ...
+55   1.59   98.9  32  6.485  6.460  6.330  6.274  6.188  35.47  49.18  67.88  60.92  43.47
+126  1.50   84.0  59  6.259  6.243  6.155  6.108  6.040  20.08  26.95  40.40  38.44  27.90
+57   1.58   87.9  64  6.285  6.267  6.171  6.121  6.047  20.61  30.39  46.10  42.12  31.05
+33   1.64  107.0  18  6.249  6.224  6.101  6.046  5.960  26.21  37.06  50.05  44.95  31.20
+15   1.60   96.1  43  6.365  6.344  6.237  6.186  6.097  27.42  36.78  54.62  49.01  34.22
+
+[94 rows x 13 columns]
+
+This is training data OUTPUT
+ 72     49.76
+24     50.93
+46     51.76
+116    51.61
+109    67.02
+       ...
+55     51.17
+126    45.79
+57     50.80
+33     58.23
+15     49.14
+Name: y, Length: 94, dtype: float64
+
+########################################################################
+
+This is testing data INPUT
+         x1     x2  x3     x4     x5     x6     x7     x8     x9    x10    x11  x11.1    x12
+83   1.670  100.7  37  6.275  6.251  6.132  6.079  5.997  27.84  38.08  50.81  44.06  28.11
+65   1.630  100.5  57  6.169  6.149  6.052  6.010  5.948  20.85  27.81  40.18  37.69  30.13
+49   1.700   97.1  50  6.476  6.453  6.343  6.296  6.223  31.75  43.26  53.73  46.38  29.95
+66   1.550   84.8  49  6.417  6.393  6.276  6.222  6.145  29.94  41.78  58.71  52.68  37.53
+38   1.620  136.8  44  6.090  6.064  5.962  5.918  5.848  23.13  28.56  35.35  30.40  19.97
+10   1.470   90.6  21  6.099  6.075  5.948  5.886  5.789  24.90  34.21  48.38  43.13  28.02
+64   1.640   99.5  22  6.330  6.300  6.176  6.118  6.039  30.39  41.89  54.79  49.14  33.76
+98   1.560   95.5  56  6.362  6.340  6.241  6.189  6.120  26.31  35.66  49.46  44.23  33.40
+51   1.620  107.1  51  6.230  6.213  6.126  6.082  6.015  18.61  27.04  38.41  34.29  22.89
+7    1.510   89.0  52  6.237  6.219  6.110  6.056  5.978  21.44  29.83  47.35  44.63  31.76
+50   1.530   94.7  50  6.330  6.306  6.197  6.148  6.070  28.43  36.38  51.64  46.38  34.05
+75   1.660  113.9  42  6.039  6.022  5.931  5.886  5.815  16.85  22.33  32.94  30.12  20.51
+40   1.560   77.4  56  6.478  6.449  6.360  6.319  6.252  23.85  36.44  48.53  44.43  33.56
+17   1.470  129.1  45  6.135  6.117  6.035  5.994  5.920  20.15  24.55  34.33  31.38  20.82
+70   1.610  131.0  58  6.032  6.015  5.931  5.892  5.821  17.46  22.17  31.63  28.32  18.87
+12   1.550  125.4  26  6.156  6.122  5.986  5.928  5.843  24.70  35.86  49.56  43.10  30.16
+107  1.630  107.5  51  6.225  6.202  6.095  6.045  5.974  23.84  31.94  45.84  39.71  27.48
+73   1.800  102.6  29  6.189  6.119  5.983  5.924  5.831  26.39  35.78  50.82  44.81  30.40
+118  1.640  112.9  62  6.309  6.288  6.199  6.154  6.089  22.07  29.15  43.91  40.23  29.29
+22   1.660  114.0  43  6.296  6.271  6.160  6.109  6.033  24.63  35.12  49.75  43.81  27.70
+25   1.480   75.5  49  6.359  6.318  6.190  6.139  6.057  25.21  43.62  55.58  46.79  30.60
+106  1.660   89.5  50  6.204  6.186  6.074  6.023  5.947  20.73  30.58  47.19  43.17  32.80
+53   1.600   85.8  40  6.372  6.350  6.234  6.180  6.099  26.58  40.04  56.29  50.49  35.07
+47   1.600  109.0  63  6.243  6.221  6.139  6.097  6.034  20.67  27.26  38.10  34.06  24.79
+13   1.680  113.0  59  6.158  6.120  5.997  5.947  5.894  21.46  32.60  45.85  40.03  28.56
+99   1.580   99.9  42  6.154  6.129  6.017  5.960  5.878  23.01  32.09  45.32  40.56  27.46
+134  1.640   94.8  32  6.435  6.411  6.297  6.242  6.164  30.48  42.55  59.91  53.73  38.25
+104  1.650  129.9  32  6.307  6.282  6.180  6.133  6.068  26.82  34.59  45.64  41.07  30.96
+92   1.700   95.7  44  6.333  6.292  6.177  6.127  6.057  35.41  43.47  50.59  43.10  26.13
+30   1.620  113.8  29  6.217  6.197  6.091  6.040  5.966  23.65  30.89  44.87  39.52  26.59
+31   1.550   91.0  64  6.214  6.190  6.087  6.039  5.964  22.68  29.85  43.13  38.79  25.17
+71   1.620   59.0  53  6.473  6.454  6.366  6.322  6.259  26.00  34.39  50.90  47.58  38.38
+102  1.670  111.6  22  6.377  6.350  6.226  6.168  6.081  30.83  42.04  59.38  52.45  35.21
+130  1.530   80.0  38  6.467  6.430  6.313  6.264  6.181  29.21  44.47  60.90  53.96  37.21
+14   1.540   91.6  64  6.108  6.082  5.976  5.930  5.881  24.33  30.62  40.02  35.38  25.67
+124  1.555   98.0  69  6.177  6.151  6.070  6.026  5.970  20.18  25.42  33.30  28.95  17.10
+103  1.700  106.4  39  6.342  6.310  6.179  6.121  6.049  35.73  46.19  56.70  48.46  31.87
+91   1.680  118.3  32  6.275  6.251  6.122  6.057  5.978  26.91  38.99  55.14  46.97  30.38
+27   1.620   89.2  45  6.251  6.225  6.125  6.055  6.012  19.02  30.01  42.40  43.79  26.39
+84   1.580   97.2  47  6.298  6.274  6.161  6.104  6.025  27.52  36.18  52.34  46.83  31.84
+113  1.715  115.4  39  6.300  6.276  6.165  6.118  6.057  26.62  35.32  45.81  39.66  26.13
+
+This is testing data OUTPUT
+ 83     56.02
+65     56.36
+49     56.98
+66     46.61
+38     70.32
+10     48.29
+64     57.77
+98     53.30
+51     62.02
+7      46.01
+50     48.94
+75     64.04
+40     44.88
+17     55.52
+70     64.81
+12     61.76
+107    60.41
+73     71.57
+118    58.49
+22     63.20
+25     45.75
+106    53.46
+53     51.44
+47     59.31
+13     64.53
+99     63.01
+134    55.04
+104    63.58
+92     56.59
+30     57.45
+31     49.88
+71     39.23
+102    64.01
+130    45.67
+14     49.88
+124    55.16
+103    65.77
+91     73.05
+27     50.70
+84     53.01
+113    62.02
+Name: y, dtype: float64
+
+
+For ALL regressions methods will be used same initial splitting dataset
+
+MAPE value:  5.408287768316259
+Accuracy of Lasso Regression: 94.59%.
+
+The best value for alpha is: 0.34235816743229985. This values will be used for next LASSO models calculations.
+Lasso(alpha=0.34235816743229985)
+[(0.0, 'x1'), (0.37776888207439274, 'x2'), (-0.058728120855349814, 'x3'), (-0.0, 'x4'), (-0.0, 'x5'), (-0.0, 'x6'), (-0.0, 'x7'), (-0.0, 'x8'), (-0.10789624542235415, 'x9'), (0.0, 'x10'), (0.11875838109353516, 'x11'), (-0.0, 'x11.1'), (-0.2612491780840964, 'x12')]
+R squared training set 79.67
+R squared test set 68.17
+
+Accuracy model with new best alpha value:
+MAPE value:  5.470231929195948
+Accuracy of Lasso Regression: 94.53%.
+More lasso performance measures: 
+
+0.6817034143463061
+0.7967471254818334
+[ 0.          0.37776888 -0.05872812 -0.         -0.         -0.
+ -0.         -0.         -0.10789625  0.          0.11875838 -0.
+ -0.26124918]
+  (0, 1)        0.37776888207439274
+  (0, 2)        -0.058728120855349814
+  (0, 8)        -0.10789624542235415
+  (0, 10)       0.11875838109353516
+  (0, 12)       -0.2612491780840964
+Mean MAE: 3.115 (0.596)
+3.711061781752856
+0.7967471254818334
+4.37074820555778
+0.6817034143463061
+Compare performance with alpha = 1 and with best value of alpha. If numbers have NO SENSE, do research!!!
+
+########################################################################
+
+Time for L2 regression:
+
+2.5734237974560967
+0.9022621114319662
+2.725730791241184
+0.876209782914487
+
+
+MSE train: 6.652, test: 7.592
+R^2 train: 0.902, test: 0.874
+0.1
+Looks like lambda is better as lower. Because I selected 0.01 at the beginning, I assume is the best model possible!!
+
+########################################################################
+
+PREDICTIONS for both models, L1 and L2:
+
+C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\sklearn\base.py:450: UserWarning: X does not have valid feature names, but Lasso was fitted with feature names
+  warnings.warn(
+C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\sklearn\base.py:450: UserWarning: X does not have valid feature names, but Lasso was fitted with feature names
+  warnings.warn(
+C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\sklearn\base.py:450: UserWarning: X does not have valid feature names, but Lasso was fitted with feature names
+  warnings.warn(
+Predicted: 32.9338237
+Predicted: 32.9338237
+Predicted: 32.9338237
+R squared training set 79.67
+R squared test set 68.17
+R squared... 76.85
+Now prediction for L2 model with same values:
+C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\sklearn\base.py:450: UserWarning: X does not have valid feature names, but RidgeCV was fitted with feature names
+  warnings.warn(
+C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\sklearn\base.py:450: UserWarning: X does not have valid feature names, but StandardScaler was fitted with feature names
+  warnings.warn(
+C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\sklearn\base.py:450: UserWarning: X does not have valid feature names, but Ridge was fitted with feature names
+  warnings.warn(
+Predicted: -1020.0502801
+Predicted: -507.4591626
+Predicted: -714.0581245
+R squared training set 90.23
+R squared test set 87.62
+R squared... 89.67
+########################################################################
+
+Linear regression:
+Intercept: 
+ 34.922338738120345
+Coefficients:
+ [ 4.38341701e+01  2.84641624e-01  3.83885519e-02  2.70912896e+01
+  3.23142529e+01  2.67753982e+01 -7.23171531e+01 -2.87321472e+01
+ -1.45248180e-01  1.07877367e-01  3.53188649e-01 -5.30079393e-01
+  9.39384191e-02]
+                            OLS Regression Results
+==============================================================================
+Dep. Variable:                      y   R-squared:                       0.903
+Model:                            OLS   Adj. R-squared:                  0.892
+Method:                 Least Squares   F-statistic:                     86.47
+Date:                Thu, 13 Oct 2022   Prob (F-statistic):           9.38e-55
+Time:                        14:31:15   Log-Likelihood:                -317.51
+No. Observations:                 135   AIC:                             663.0
+Df Residuals:                     121   BIC:                             703.7
+Df Model:                          13
+Covariance Type:            nonrobust
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const         34.9223     51.223      0.682      0.497     -66.488     136.333
+x1            43.8342      4.239     10.340      0.000      35.441      52.227
+x2             0.2846      0.021     13.675      0.000       0.243       0.326
+x3             0.0384      0.026      1.458      0.148      -0.014       0.091
+x4            27.0913     47.567      0.570      0.570     -67.080     121.263
+x5            32.3143     71.650      0.451      0.653    -109.537     174.165
+x6            26.7754     30.822      0.869      0.387     -34.245      87.795
+x7           -72.3172     60.813     -1.189      0.237    -192.712      48.078
+x8           -28.7321     41.042     -0.700      0.485    -109.986      52.522
+x9            -0.1452      0.149     -0.975      0.332      -0.440       0.150
+x10            0.1079      0.210      0.514      0.608      -0.308       0.523
+x11            0.3532      0.267      1.322      0.189      -0.176       0.882
+x11.1         -0.5301      0.313     -1.695      0.093      -1.149       0.089
+x12            0.0939      0.156      0.601      0.549      -0.215       0.403
+==============================================================================
+Omnibus:                        8.214   Durbin-Watson:                   1.463
+Prob(Omnibus):                  0.016   Jarque-Bera (JB):                3.617
+Skew:                           0.076   Prob(JB):                        0.164
+Kurtosis:                       2.213   Cond. No.                     5.37e+04
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 5.37e+04. This might indicate that there are
+strong multicollinearity or other numerical problems.
+########################################################################
+
+Some other SL regressions:
+
+POLINOMIAL
+How well does my data fit in a polynomial regression?
+0.07048104681713152
+How well does my data fit in a polynomial with grade 6 regression?
+0.08133071463263153
+########################################################################
+
+Time for Dr. Gu in lab3 regressions:
+[[1 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ ...
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]]
+C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\sklearn\metrics\_classification.py:1334: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\sklearn\metrics\_classification.py:1334: UndefinedMetricWarning: Recall and F-score are ill-defined and being set to 0.0 in labels with no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\sklearn\metrics\_classification.py:1334: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\sklearn\metrics\_classification.py:1334: UndefinedMetricWarning: Recall and F-score are ill-defined and being set to 0.0 in labels with no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\sklearn\metrics\_classification.py:1334: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\sklearn\metrics\_classification.py:1334: UndefinedMetricWarning: Recall and F-score are ill-defined and being set to 0.0 in labels with no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00         1
+           1       0.00      0.00      0.00         1
+           2       0.00      0.00      0.00         1
+           3       0.00      0.00      0.00         1
+           4       0.00      0.00      0.00         1
+           5       0.00      0.00      0.00         1
+           6       0.00      0.00      0.00         1
+           7       0.00      0.00      0.00         1
+           8       0.00      0.00      0.00         2
+           9       0.00      0.00      0.00         1
+          10       0.00      0.00      0.00         1
+          11       0.00      0.00      0.00         1
+          12       0.00      0.00      0.00         1
+          13       0.00      0.00      0.00         1
+          14       0.00      0.00      0.00         1
+          15       0.00      0.00      0.00         1
+          16       0.00      0.00      0.00         1
+          17       0.00      0.00      0.00         1
+          18       0.00      0.00      0.00         1
+          19       0.00      0.00      0.00         1
+          20       0.00      0.00      0.00         1
+          21       0.00      0.00      0.00         1
+          22       0.00      0.00      0.00         1
+          23       0.00      0.00      0.00         1
+          24       0.00      0.00      0.00         1
+          25       0.00      0.00      0.00         1
+          26       0.00      0.00      0.00         1
+          27       0.00      0.00      0.00         2
+          28       0.00      0.00      0.00         1
+          29       0.00      0.00      0.00         1
+          30       0.00      0.00      0.00         1
+          31       0.00      0.00      0.00         1
+          32       0.00      0.00      0.00         1
+          33       0.00      0.00      0.00         1
+          34       0.00      0.00      0.00         1
+          35       0.00      0.00      0.00         1
+          36       0.00      0.00      0.00         1
+          37       0.00      0.00      0.00         1
+          38       0.00      0.00      0.00         1
+          41       0.00      0.00      0.00         0
+          45       0.00      0.00      0.00         0
+          47       0.00      0.00      0.00         0
+          49       0.00      0.00      0.00         0
+          54       0.00      0.00      0.00         0
+          57       0.00      0.00      0.00         0
+          59       0.00      0.00      0.00         0
+          64       0.00      0.00      0.00         0
+          67       0.00      0.00      0.00         0
+          71       0.00      0.00      0.00         0
+          75       0.00      0.00      0.00         0
+          77       0.00      0.00      0.00         0
+          79       0.00      0.00      0.00         0
+          83       0.00      0.00      0.00         0
+          85       0.00      0.00      0.00         0
+          86       0.00      0.00      0.00         0
+          87       0.00      0.00      0.00         0
+          89       0.00      0.00      0.00         0
+          90       0.00      0.00      0.00         0
+
+    accuracy                           0.02        41
+   macro avg       0.02      0.02      0.02        41
+weighted avg       0.02      0.02      0.02        41
+
+C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\sklearn\base.py:450: UserWarning: X does not have valid feature names, but RandomForestClassifier was fitted with feature names
+  warnings.warn(
+[57]
+[[1 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ ...
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]]
+C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\sklearn\metrics\_classification.py:1334: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\sklearn\metrics\_classification.py:1334: UndefinedMetricWarning: Recall and F-score are ill-defined and being set to 0.0 in labels with no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\sklearn\metrics\_classification.py:1334: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\sklearn\metrics\_classification.py:1334: UndefinedMetricWarning: Recall and F-score are ill-defined and being set to 0.0 in labels with no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\sklearn\metrics\_classification.py:1334: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\sklearn\metrics\_classification.py:1334: UndefinedMetricWarning: Recall and F-score are ill-defined and being set to 0.0 in labels with no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00         1
+           1       0.00      0.00      0.00         1
+           2       0.00      0.00      0.00         1
+           3       0.00      0.00      0.00         1
+           4       0.00      0.00      0.00         1
+           5       0.00      0.00      0.00         1
+           6       0.00      0.00      0.00         1
+           7       0.00      0.00      0.00         1
+           8       0.00      0.00      0.00         2
+           9       0.00      0.00      0.00         1
+          10       0.00      0.00      0.00         1
+          11       0.00      0.00      0.00         1
+          12       0.00      0.00      0.00         1
+          13       0.00      0.00      0.00         1
+          14       0.00      0.00      0.00         1
+          15       0.00      0.00      0.00         1
+          16       0.00      0.00      0.00         1
+          17       0.00      0.00      0.00         1
+          18       0.00      0.00      0.00         1
+          19       0.00      0.00      0.00         1
+          20       0.00      0.00      0.00         1
+          21       0.00      0.00      0.00         1
+          22       0.00      0.00      0.00         1
+          23       0.00      0.00      0.00         1
+          24       0.00      0.00      0.00         1
+          25       0.00      0.00      0.00         1
+          26       0.00      0.00      0.00         1
+          27       0.00      0.00      0.00         2
+          28       0.00      0.00      0.00         1
+          29       0.00      0.00      0.00         1
+          30       0.00      0.00      0.00         1
+          31       0.00      0.00      0.00         1
+          32       0.00      0.00      0.00         1
+          33       0.00      0.00      0.00         1
+          34       0.00      0.00      0.00         1
+          35       0.00      0.00      0.00         1
+          36       0.00      0.00      0.00         1
+          37       0.00      0.00      0.00         1
+          38       0.00      0.00      0.00         1
+          41       0.00      0.00      0.00         0
+          45       0.00      0.00      0.00         0
+          47       0.00      0.00      0.00         0
+          49       0.00      0.00      0.00         0
+          54       0.00      0.00      0.00         0
+          57       0.00      0.00      0.00         0
+          59       0.00      0.00      0.00         0
+          64       0.00      0.00      0.00         0
+          67       0.00      0.00      0.00         0
+          71       0.00      0.00      0.00         0
+          75       0.00      0.00      0.00         0
+          77       0.00      0.00      0.00         0
+          79       0.00      0.00      0.00         0
+          83       0.00      0.00      0.00         0
+          85       0.00      0.00      0.00         0
+          86       0.00      0.00      0.00         0
+          87       0.00      0.00      0.00         0
+          89       0.00      0.00      0.00         0
+          90       0.00      0.00      0.00         0
+
+    accuracy                           0.02        41
+   macro avg       0.02      0.02      0.02        41
+weighted avg       0.02      0.02      0.02        41
+
+C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\sklearn\base.py:450: UserWarning: X does not have valid feature names, but DecisionTreeClassifier was fitted with feature names
+  warnings.warn(
+[2]
+[[1 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ ...
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]]
+C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\sklearn\metrics\_classification.py:1334: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\sklearn\metrics\_classification.py:1334: UndefinedMetricWarning: Recall and F-score are ill-defined and being set to 0.0 in labels with no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\sklearn\metrics\_classification.py:1334: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\sklearn\metrics\_classification.py:1334: UndefinedMetricWarning: Recall and F-score are ill-defined and being set to 0.0 in labels with no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\sklearn\metrics\_classification.py:1334: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\sklearn\metrics\_classification.py:1334: UndefinedMetricWarning: Recall and F-score are ill-defined and being set to 0.0 in labels with no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00         1
+           1       0.00      0.00      0.00         1
+           2       0.00      0.00      0.00         1
+           3       0.00      0.00      0.00         1
+           4       0.00      0.00      0.00         1
+           5       0.00      0.00      0.00         1
+           6       0.00      0.00      0.00         1
+           7       0.00      0.00      0.00         1
+           8       0.00      0.00      0.00         2
+           9       0.00      0.00      0.00         1
+          10       0.00      0.00      0.00         1
+          11       0.00      0.00      0.00         1
+          12       0.00      0.00      0.00         1
+          13       0.00      0.00      0.00         1
+          14       0.00      0.00      0.00         1
+          15       0.00      0.00      0.00         1
+          16       0.00      0.00      0.00         1
+          17       0.00      0.00      0.00         1
+          18       0.00      0.00      0.00         1
+          19       0.00      0.00      0.00         1
+          20       0.00      0.00      0.00         1
+          21       0.00      0.00      0.00         1
+          22       0.00      0.00      0.00         1
+          23       0.00      0.00      0.00         1
+          24       0.00      0.00      0.00         1
+          25       0.00      0.00      0.00         1
+          26       0.00      0.00      0.00         1
+          27       0.00      0.00      0.00         2
+          28       0.00      0.00      0.00         1
+          29       0.00      0.00      0.00         1
+          30       0.00      0.00      0.00         1
+          31       0.00      0.00      0.00         1
+          32       0.00      0.00      0.00         1
+          33       0.00      0.00      0.00         1
+          34       0.00      0.00      0.00         1
+          35       0.00      0.00      0.00         1
+          36       0.00      0.00      0.00         1
+          37       0.00      0.00      0.00         1
+          38       0.00      0.00      0.00         1
+          41       0.00      0.00      0.00         0
+          45       0.00      0.00      0.00         0
+          47       0.00      0.00      0.00         0
+          49       0.00      0.00      0.00         0
+          54       0.00      0.00      0.00         0
+          57       0.00      0.00      0.00         0
+          59       0.00      0.00      0.00         0
+          64       0.00      0.00      0.00         0
+          67       0.00      0.00      0.00         0
+          71       0.00      0.00      0.00         0
+          75       0.00      0.00      0.00         0
+          77       0.00      0.00      0.00         0
+          79       0.00      0.00      0.00         0
+          83       0.00      0.00      0.00         0
+          85       0.00      0.00      0.00         0
+          86       0.00      0.00      0.00         0
+          87       0.00      0.00      0.00         0
+          89       0.00      0.00      0.00         0
+          90       0.00      0.00      0.00         0
+
+    accuracy                           0.02        41
+   macro avg       0.02      0.02      0.02        41
+weighted avg       0.02      0.02      0.02        41
+
+C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\sklearn\base.py:450: UserWarning: X does not have valid feature names, but GaussianNB was fitted with feature names
+  warnings.warn(
+[2]
+[[1 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ ...
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]]
+C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\sklearn\metrics\_classification.py:1334: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\sklearn\metrics\_classification.py:1334: UndefinedMetricWarning: Recall and F-score are ill-defined and being set to 0.0 in labels with no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\sklearn\metrics\_classification.py:1334: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\sklearn\metrics\_classification.py:1334: UndefinedMetricWarning: Recall and F-score are ill-defined and being set to 0.0 in labels with no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\sklearn\metrics\_classification.py:1334: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\sklearn\metrics\_classification.py:1334: UndefinedMetricWarning: Recall and F-score are ill-defined and being set to 0.0 in labels with no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00         1
+           1       0.00      0.00      0.00         1
+           2       0.00      0.00      0.00         1
+           3       0.00      0.00      0.00         1
+           4       0.00      0.00      0.00         1
+           5       0.00      0.00      0.00         1
+           6       0.00      0.00      0.00         1
+           7       0.00      0.00      0.00         1
+           8       0.00      0.00      0.00         2
+           9       0.00      0.00      0.00         1
+          10       0.00      0.00      0.00         1
+          11       0.00      0.00      0.00         1
+          12       0.00      0.00      0.00         1
+          13       0.00      0.00      0.00         1
+          14       0.00      0.00      0.00         1
+          15       0.00      0.00      0.00         1
+          16       0.00      0.00      0.00         1
+          17       0.00      0.00      0.00         1
+          18       0.00      0.00      0.00         1
+          19       0.00      0.00      0.00         1
+          20       0.00      0.00      0.00         1
+          21       0.00      0.00      0.00         1
+          22       0.00      0.00      0.00         1
+          23       0.00      0.00      0.00         1
+          24       0.00      0.00      0.00         1
+          25       0.00      0.00      0.00         1
+          26       0.00      0.00      0.00         1
+          27       0.00      0.00      0.00         2
+          28       0.00      0.00      0.00         1
+          29       0.00      0.00      0.00         1
+          30       0.00      0.00      0.00         1
+          31       0.00      0.00      0.00         1
+          32       0.00      0.00      0.00         1
+          33       0.00      0.00      0.00         1
+          34       0.00      0.00      0.00         1
+          35       0.00      0.00      0.00         1
+          36       0.00      0.00      0.00         1
+          37       0.00      0.00      0.00         1
+          38       0.00      0.00      0.00         1
+          41       0.00      0.00      0.00         0
+          45       0.00      0.00      0.00         0
+          47       0.00      0.00      0.00         0
+          49       0.00      0.00      0.00         0
+          54       0.00      0.00      0.00         0
+          57       0.00      0.00      0.00         0
+          59       0.00      0.00      0.00         0
+          64       0.00      0.00      0.00         0
+          67       0.00      0.00      0.00         0
+          71       0.00      0.00      0.00         0
+          75       0.00      0.00      0.00         0
+          77       0.00      0.00      0.00         0
+          79       0.00      0.00      0.00         0
+          83       0.00      0.00      0.00         0
+          85       0.00      0.00      0.00         0
+          86       0.00      0.00      0.00         0
+          87       0.00      0.00      0.00         0
+          89       0.00      0.00      0.00         0
+          90       0.00      0.00      0.00         0
+
+    accuracy                           0.02        41
+   macro avg       0.02      0.02      0.02        41
+weighted avg       0.02      0.02      0.02        41
+
+########################################################################
+
+
+This is the END. Some useful theory are in these websites:
